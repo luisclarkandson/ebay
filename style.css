@@ -1,0 +1,61 @@
+h1 {
+    font-family: "Montserrat script=all rev=1" serif;
+    font-style: normal;
+  }
+
+.w100 {
+  font-weight: 100;
+}
+.w200 {
+  font-weight: 200;
+}
+.w300 {
+  font-weight: 300;
+}
+.w400 {
+  font-weight: 400;
+}
+.w500 {
+  font-weight: 500;
+}
+.w600 {
+  font-weight: 600;
+}
+.w700 {
+  font-weight: 700;
+}
+.w800 {
+  font-weight: 800;
+}
+.w900 {
+  font-weight: 900;
+}
+
+
+
+/* Header Properties */
+.headerSlider {
+ width: 1250px;
+ height: 417px;
+ background-image: url(images/HeaderBackgroundImag.png);
+}
+
+.headerLogo {
+  padding: 20px 0 20px 20px;
+}
+
+.headerCabinetImage {
+  float: right;
+  width: 300px;
+}
+
+/* Properties */
+
+.verticalAlign {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.image100width {
+  width: 400px;
+}
