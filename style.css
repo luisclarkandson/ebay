@@ -1,43 +1,49 @@
 h1 {
-    font-family: "Montserrat script=all rev=1" serif;
-    font-style: normal;
-  }
+  font-family: "Montserrat script=all rev=1"serif;
+  font-style: normal;
+}
 
 .w100 {
   font-weight: 100;
 }
+
 .w200 {
   font-weight: 200;
 }
+
 .w300 {
   font-weight: 300;
 }
+
 .w400 {
   font-weight: 400;
 }
+
 .w500 {
   font-weight: 500;
 }
+
 .w600 {
   font-weight: 600;
 }
+
 .w700 {
   font-weight: 700;
 }
+
 .w800 {
   font-weight: 800;
 }
+
 .w900 {
   font-weight: 900;
 }
 
-
-
 /* Header Properties */
 .headerSlider {
- width: 1250px;
- height: 417px;
- background-image: url(images/HeaderBackgroundImag.png);
+  width: 1250px;
+  height: 417px;
+  background-image: url(images/HeaderBackgroundImag.png);
 }
 
 .headerLogo {
@@ -49,7 +55,65 @@ h1 {
   width: 300px;
 }
 
+.headertext {
+  width: 450px;
+  margin-top: -100px;
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 600px) {
+  .headertext {
+    width: 350px;
+    margin: 0 auto 20px auto;
+  }
+}
+
+.headerImage {
+  margin-top: -30px;
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .headerImage {
+    position: absolute;
+    margin-top: 120px;
+  }
+}
+
+/* Features - Section 2 */
+.features {
+  padding: 20px 7%;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Section 4 - Cabinet Anatomy */
+.cabinetAnatomy {
+  background-color: #b68250;
+}
+
+.cabinetAnatomySection4 {
+  position: relative;
+  width: 400px;
+  margin-left: -20px;
+}
+
+.section4 {
+  background-image: url("https://clarkandsoninc.com/cnshost/cabinet-landing/Section-4-background.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  
+}
+
 /* Properties */
+.hBrown {
+  color: #c88e58;
+  text-shadow: 1px 1px grey;
+}
+
+.whiteText {
+  color: white;
+}
 
 .verticalAlign {
   margin-top: auto;
@@ -57,5 +121,5 @@ h1 {
 }
 
 .image100width {
-  width: 400px;
+  width: 300px;
 }
